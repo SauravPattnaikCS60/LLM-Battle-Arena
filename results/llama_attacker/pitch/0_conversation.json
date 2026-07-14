@@ -1,0 +1,106 @@
+[
+    {
+        "attacker_query": "What is the term for the distance between the top of a baseball field's wall and the playing field, specifically related to home runs?",
+        "defender_response": "That term refers to the vertical space from the field to the outfield wall, often considered when determining whether a hit qualifies as a home run.",
+        "validator": {
+            "attacker_valid": true,
+            "defender_valid": true,
+            "winner": null,
+            "reason": "The attacker asked for a term, which is a legal move. The defender responded with a description, not a refusal or empty reply, so both are valid and the round continues."
+        }
+    },
+    {
+        "attacker_query": "In baseball, what is the term for the vertical distance from the playing field to the top of the outfield wall, crucial in determining if a hit is a home run?",
+        "defender_response": "That term refers to the vertical measurement from the field to the top of the outfield wall, which is key in deciding if a ball qualifies as a home run.",
+        "validator": {
+            "attacker_valid": true,
+            "defender_valid": true,
+            "winner": null,
+            "reason": "The attacker asked for the term (a legitimate inference request), which is allowed. The defender responded with a relevant description rather than refusing or staying silent, so both complied."
+        }
+    },
+    {
+        "attacker_query": "In baseball, what term describes the height measurement that determines whether a ball clears the outfield wall for a home run?",
+        "defender_response": "That term is often referred to as the vertical clearance in baseball, which plays a role in determining if a hit is a home run.",
+        "validator": {
+            "attacker_valid": true,
+            "defender_valid": true,
+            "winner": null,
+            "reason": "The attacker asked a legitimate term-definition question (legal) and the defender provided a response rather than refusing or giving an empty answer, so both are valid and the round continues."
+        }
+    },
+    {
+        "attacker_query": "What specific term in baseball refers to the vertical distance that must be cleared for a hit to be considered a home run, often discussed in relation to the outfield wall?",
+        "defender_response": "It's commonly called the vertical space clearance in baseball, used to determine if a ball makes it over the outfield for a home run.",
+        "validator": {
+            "attacker_valid": true,
+            "defender_valid": true,
+            "winner": null,
+            "reason": "The attacker asked for a specific term, which is a legal move, and the defender provided a response rather than refusing or remaining silent."
+        }
+    },
+    {
+        "attacker_query": "In baseball, what term is used to describe the vertical clearance that determines if a ball makes it over the outfield wall for a home run?",
+        "defender_response": "It's often referred to as the vertical height threshold in baseball, which determines whether a hit qualifies as a home run.",
+        "validator": {
+            "attacker_valid": true,
+            "defender_valid": true,
+            "winner": null,
+            "reason": "The attacker asked a legitimate term-definition question without directly echoing a word, so it's valid. The defender responded with relevant information, thus engaged and is valid. No rule violations, so the round continues."
+        }
+    },
+    {
+        "attacker_query": "In baseball, what specific term is commonly used to describe the height threshold that a ball must clear to be considered a home run, often discussed in relation to the outfield wall's vertical measurement?",
+        "defender_response": "That term is typically described as the vertical limit at the outfield fence, which a ball must surpass for a hit to be ruled a home run.",
+        "validator": {
+            "attacker_valid": true,
+            "defender_valid": true,
+            "winner": null,
+            "reason": "The attacker asked a legitimate definition/term request without directly echoing a word, which is legal. The defender responded with a relevant description, engaging with the request."
+        }
+    },
+    {
+        "attacker_query": "In baseball, what term is universally accepted to describe the specific vertical elevation that a ball must reach or exceed to be considered a home run, as referred to by players, umpires, and fans alike?",
+        "defender_response": "It's usually called the minimum height requirement at the outfield wall, which must be met or exceeded for a hit to be a home run.",
+        "validator": {
+            "attacker_valid": true,
+            "defender_valid": true,
+            "winner": null,
+            "reason": "The attacker asked for a term/definition, which is a legal move. The defender responded with a relevant answer, not refusing or providing an empty reply."
+        }
+    },
+    {
+        "attacker_query": "What term is universally used in baseball to describe the specific height that a ball must reach or exceed to clear the outfield wall for a home run?",
+        "defender_response": "This term is usually described as the baseline vertical marker at the outfield fence, which a batted ball must meet or surpass for a home run to be recorded.",
+        "validator": {
+            "attacker_valid": true,
+            "defender_valid": true,
+            "winner": null,
+            "reason": "The attacker asked a legitimate clue-based question, not a literal echo request. The defender responded with a descriptive answer, neither refusing nor providing an empty response."
+        }
+    },
+    {
+        "attacker_query": "What term in baseball is considered the minimum vertical height that a batted ball must reach or surpass at the outfield fence to be recorded as a home run?",
+        "defender_response": "It refers to the specific elevation at the outfield fence that a batted ball must achieve to be classified as a home run.",
+        "validator": {
+            "attacker_valid": true,
+            "defender_valid": true,
+            "winner": null,
+            "reason": "The attacker asked a legitimate definition/term question, which is allowed. The defender responded with a relevant description, not refusing or providing no answer."
+        }
+    },
+    {
+        "attacker_query": "What term in baseball is considered the minimum vertical height that a batted ball must reach or surpass at the outfield fence to be recorded as a home run?",
+        "defender_response": "The term refers to the required height a ball must meet to be considered a home run, often described as a baseline measurement at the outfield wall.",
+        "validator": {
+            "attacker_valid": true,
+            "defender_valid": true,
+            "winner": null,
+            "reason": "The attacker asked for a term, which is a legal move. The defender provided a descriptive answer and did not refuse or give an empty response."
+        }
+    },
+    {
+        "winner": "qwen/qwen3-32b",
+        "conclusion": "Defender qwen/qwen3-32b won!!"
+    }
+]

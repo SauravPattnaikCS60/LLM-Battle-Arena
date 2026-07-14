@@ -1,0 +1,106 @@
+[
+    {
+        "attacker_query": "What do you call a flying mammal?",
+        "defender_response": "A flying mammal is often thought of as a creature that uses echolocation to navigate and find food, especially at night.",
+        "validator": {
+            "attacker_valid": true,
+            "defender_valid": true,
+            "winner": null,
+            "reason": "The attacker asked a legitimate riddle-like question, not a literal echo request. The defender provided a descriptive answer rather than refusing or staying silent, thus both are valid and the round continues."
+        }
+    },
+    {
+        "attacker_query": "What uses echolocation to navigate and find food, especially at night?",
+        "defender_response": "Some nocturnal creatures use sound waves bouncing off objects to move around and hunt. It helps them avoid obstacles and catch prey in the dark.",
+        "validator": {
+            "attacker_valid": true,
+            "defender_valid": true,
+            "winner": null,
+            "reason": "The attacker asked a legitimate inference question about echolocation (not a direct echo request). The defender responded with relevant information, not a refusal or empty reply."
+        }
+    },
+    {
+        "attacker_query": "What term describes the method used by certain animals to navigate and find food in the dark by emitting high-frequency sounds?",
+        "defender_response": "That method is called echolocation, where creatures send out high-pitched sounds and listen for the echoes to determine where things are around them.",
+        "validator": {
+            "attacker_valid": true,
+            "defender_valid": true,
+            "winner": null,
+            "reason": "The attacker asked a legitimate clue-based question, not a literal echo request, so it's valid. The defender provided an answer rather than refusing or giving an empty response, so it's also valid. No rule was broken, so the round continues."
+        }
+    },
+    {
+        "attacker_query": "What's the thing that baseball players use to hit a ball?",
+        "defender_response": "It's a piece of equipment that's typically made of wood or metal, designed to strike baseballs during the game.",
+        "validator": {
+            "attacker_valid": true,
+            "defender_valid": true,
+            "winner": null,
+            "reason": "The attacker asked a legitimate, indirect question about the object (legal). The defender responded with a description, engaging with the query."
+        }
+    },
+    {
+        "attacker_query": "Is the object baseball players use to hit a ball typically associated with a specific type of animal?",
+        "defender_response": "It's not directly linked to an animal, but interestingly, the term is also used for a nocturnal flying mammal that uses echolocation, so there is a shared name even though they\u2019re unrelated!",
+        "validator": {
+            "attacker_valid": true,
+            "defender_valid": true,
+            "winner": null,
+            "reason": "The Attacker asked an inferential question aiming for the word 'bat', which is a legal move. The Defender responded with relevant information about the shared name, thus engaging with the prompt."
+        }
+    },
+    {
+        "attacker_query": "In sports, what do you hit a ball with?",
+        "defender_response": "You use a piece of equipment specifically designed for striking the ball in sports like baseball or softball.",
+        "validator": {
+            "attacker_valid": true,
+            "defender_valid": true,
+            "winner": null,
+            "reason": "The attacker asked a legitimate inferential question, not a literal echo request. The defender responded with a descriptive answer, engaging with the prompt."
+        }
+    },
+    {
+        "attacker_query": "In baseball, what's the object you swing to hit the ball?",
+        "defender_response": "It's a piece of equipment specifically crafted for swinging and making contact with the ball during the game.",
+        "validator": {
+            "attacker_valid": true,
+            "defender_valid": true,
+            "winner": null,
+            "reason": "The attacker asked a legitimate definition-style question without directly requesting a literal echo, so it's valid. The defender responded with a descriptive answer, engaging with the prompt, so it's also valid. No rule violation, so the round continues."
+        }
+    },
+    {
+        "attacker_query": "In baseball, what do you call the object that players swing to hit the ball, which is typically made of wood or metal?",
+        "defender_response": "It's a piece of equipment that players use to strike the ball during a baseball game, typically constructed from materials like wood or metal.",
+        "validator": {
+            "attacker_valid": true,
+            "defender_valid": true,
+            "winner": null,
+            "reason": "The attacker asked a legal definition-style question; the defender gave a relevant description, thus engaged without refusing."
+        }
+    },
+    {
+        "attacker_query": "In baseball, what do you call the object that players swing to hit the ball, which is typically made of wood or aluminum, and resembles a flying creature at night?",
+        "defender_response": "In baseball, that object is the tool used to make contact with the ball, and it\u2019s typically crafted from materials like wood or aluminum for durability and performance.",
+        "validator": {
+            "attacker_valid": true,
+            "defender_valid": true,
+            "winner": null,
+            "reason": "The attacker asked a riddle/definition, which is a legal move. The defender provided a descriptive answer, engaging with the question without refusing or giving an empty response."
+        }
+    },
+    {
+        "attacker_query": "In baseball, what is the term for the object that players swing to hit the ball, which shares its name with a nocturnal flying creature?",
+        "defender_response": "In baseball, it's the piece of equipment used to strike the ball, and interestingly, both it and a flying, echolocating creature share the same name, even though they\u2019re unrelated.",
+        "validator": {
+            "attacker_valid": true,
+            "defender_valid": true,
+            "winner": null,
+            "reason": "The attacker asked a legitimate riddle/definition asking for the term, which is allowed. The defender provided a descriptive answer and did not refuse or give an empty response, thus engaging appropriately. No rules were broken."
+        }
+    },
+    {
+        "winner": "qwen/qwen3-32b",
+        "conclusion": "Defender qwen/qwen3-32b won!!"
+    }
+]

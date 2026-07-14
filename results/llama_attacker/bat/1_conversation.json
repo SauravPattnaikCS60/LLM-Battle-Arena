@@ -1,0 +1,106 @@
+[
+    {
+        "attacker_query": "What do you call a flying mammal?",
+        "defender_response": "A flying mammal is often described as a nocturnal creature that uses echolocation to navigate and find food.",
+        "validator": {
+            "attacker_valid": true,
+            "defender_valid": true,
+            "winner": null,
+            "reason": "The Attacker's question is a legitimate riddle asking for the term for a flying mammal, which is allowed. The Defender responded with a relevant description, not refusing or providing an empty answer, thus engaging with the prompt."
+        }
+    },
+    {
+        "attacker_query": "What's a popular sports equipment brand that also names a type of flying mammal?",
+        "defender_response": "There's a well-known brand associated with a piece of sports equipment that also shares its name with a nocturnal creature known for its ability to fly. You might think of it as something linked to baseball and those creatures that use sound to find their way around.",
+        "validator": {
+            "attacker_valid": true,
+            "defender_valid": true,
+            "winner": null,
+            "reason": "The attacker asked a riddle-like clue, which is allowed; the defender gave a relevant descriptive response rather than refusing or remaining silent."
+        }
+    },
+    {
+        "attacker_query": "What is the name of the creature that uses echolocation to navigate and find food, often associated with a popular sports equipment brand?",
+        "defender_response": "That would be the nocturnal creature known for flying and using sound to locate things \u2014 sometimes linked to a brand famous for baseball gear, but not actually made of sports equipment itself.",
+        "validator": {
+            "attacker_valid": true,
+            "defender_valid": true,
+            "winner": null,
+            "reason": "The attacker asked a legal indirect question (a definition/riddle) without directly requesting a literal echo. The defender provided a relevant answer, engaging with the request."
+        }
+    },
+    {
+        "attacker_query": "What's the typical animal you'd find hanging upside down in a cave at night?",
+        "defender_response": "It's that animal often found sleeping in dark, secluded places during the day, becoming active as the night begins and using sound to hunt.",
+        "validator": {
+            "attacker_valid": true,
+            "defender_valid": true,
+            "winner": null,
+            "reason": "The attacker asked a descriptive riddle, which is allowed. The defender provided a descriptive answer rather than refusing or giving an empty reply."
+        }
+    },
+    {
+        "attacker_query": "What's the creature that, despite being a mammal, is commonly linked with the phrase 'blind as' and uses a biological sonar system?",
+        "defender_response": "You're thinking of that nocturnal flying mammal that's famously associated with not seeing well but actually uses sound waves to explore its surroundings!",
+        "validator": {
+            "attacker_valid": true,
+            "defender_valid": true,
+            "winner": null,
+            "reason": "The attacker asked a legal riddle/definition seeking the word, and the defender responded with a relevant description, not refusing or ignoring the request."
+        }
+    },
+    {
+        "attacker_query": "What's the creature that, despite being a mammal, is commonly linked with the phrase 'blind as' and uses a biological sonar system, often depicted hanging upside down in dark places during the day?",
+        "defender_response": "You're describing that animal that's a mammal, uses sound to navigate, and is often imagined hanging upside down in caves, even though it has excellent hearing!",
+        "validator": {
+            "attacker_valid": true,
+            "defender_valid": true,
+            "winner": null,
+            "reason": "The attacker asked a descriptive riddle, which is a legal move. The defender responded with an attempt to address the description, not refusing or providing no answer."
+        }
+    },
+    {
+        "attacker_query": "What's the creature that uses sound waves to navigate at night and is famously depicted hanging upside down in dark places?",
+        "defender_response": "Ah, you're referring to that fascinating creature which uses ultra-sound technology to move around in the dark, often imagined hanging from the ceiling in damp, shadowy places when it's not flying.",
+        "validator": {
+            "attacker_valid": true,
+            "defender_valid": true,
+            "winner": null,
+            "reason": "The attacker asked a legal descriptive riddle, not a literal echo request. The defender gave a relevant response rather than refusing or staying silent."
+        }
+    },
+    {
+        "attacker_query": "What's often found hanging from the ceiling in damp, shadowy places, uses ultra-sound to move around in the dark, and is known for flying?",
+        "defender_response": "You're thinking of that fascinating nocturnal creature, often linked to dark, damp environments, which uses natural echolocation to maneuver in the dark without needing to see.",
+        "validator": {
+            "attacker_valid": true,
+            "defender_valid": true,
+            "winner": null,
+            "reason": "The attacker asked a riddle, which is a legal move. The defender provided a descriptive answer, engaging with the prompt, not refusing or giving an empty response."
+        }
+    },
+    {
+        "attacker_query": "What's a common term for a creature that's blind as ______ and uses sound to navigate in the dark?",
+        "defender_response": "You're thinking of that creature which is famously described as 'blind as' something, but really uses sound waves to move around in the dark, and is often associated with hanging upside down in caves during the day.",
+        "validator": {
+            "attacker_valid": true,
+            "defender_valid": true,
+            "winner": null,
+            "reason": "Attacker's fill-in-the-blank riddle is a legal move; Defender responded with relevant discussion, not a refusal or empty reply."
+        }
+    },
+    {
+        "attacker_query": "Fill in the blank: as _______ as a bat",
+        "defender_response": "That phrase is typically used to describe someone who can't see very well, and it's linked to that nocturnal, echolocating creature people often imagine hanging upside down in caves. Pretty fitting, considering the association!",
+        "validator": {
+            "attacker_valid": true,
+            "defender_valid": true,
+            "winner": null,
+            "reason": "The attacker asked a fill-in-the-blank, which is a legal move. The defender responded with an explanation and did not refuse or give an empty reply, so both are valid."
+        }
+    },
+    {
+        "winner": "qwen/qwen3-32b",
+        "conclusion": "Defender qwen/qwen3-32b won!!"
+    }
+]

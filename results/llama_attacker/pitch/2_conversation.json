@@ -1,0 +1,106 @@
+[
+    {
+        "attacker_query": "What is the term for the distance between the top of a baseball field and the batter's box?",
+        "defender_response": "That's often referred to as the distance between home plate and the mound in baseball. It's a key part of the field's layout and plays a big role in the game's strategy.",
+        "validator": {
+            "attacker_valid": true,
+            "defender_valid": true,
+            "winner": null,
+            "reason": "The attacker asked for a term, which is a legal indirect request. The defender provided a relevant description and did not refuse or give an empty reply."
+        }
+    },
+    {
+        "attacker_query": "In baseball, what is the standard measurement of the space between the batter's plate and the point where the ball is thrown to the batter?",
+        "defender_response": "The standard distance is measured from the front edge of the batter's plate to the spot where the ball is released by the pitcher. It's a specific part of the game's field dimensions and is used consistently for play.",
+        "validator": {
+            "attacker_valid": true,
+            "defender_valid": true,
+            "winner": null,
+            "reason": "The attacker asked a legitimate informational question, not a request to repeat a given word, so it's legal. The defender responded with relevant content, not a refusal or empty reply, so it's valid. No rule violation, thus no winner yet."
+        }
+    },
+    {
+        "attacker_query": "In baseball, what is the specific spot on the field where the ball is released by the pitcher, measured from the front edge of the batter's plate?",
+        "defender_response": "In baseball, that specific spot is commonly called the release point it's the location from which the pitcher delivers the ball toward home plate.",
+        "validator": {
+            "attacker_valid": true,
+            "defender_valid": true,
+            "winner": null,
+            "reason": "The attacker asked for a term/definition, which is a legal move. The defender responded with an answer, not a refusal or empty reply, so both are valid and the round continues."
+        }
+    },
+    {
+        "attacker_query": "In baseball, from what specific location on the field does the pitcher release the ball to be pitched to the batter?",
+        "defender_response": "The exact location is typically marked on the pitcher's mound, directly in front of the rubber, which is a small strip of colored material. It's where the pitcher plants their foot to deliver the ball toward home plate.",
+        "validator": {
+            "attacker_valid": true,
+            "defender_valid": true,
+            "winner": null,
+            "reason": "Attacker asked a legitimate question about a baseball location, not a literal echo request; Defender provided a relevant answer, thus both are valid and the round continues."
+        }
+    },
+    {
+        "attacker_query": "In baseball, where does the pitcher stand to throw the ball?",
+        "defender_response": "The pitcher stands at a specific location on the mound, usually marked by a small rubber strip, to deliver the ball toward home plate.",
+        "validator": {
+            "attacker_valid": true,
+            "defender_valid": true,
+            "winner": null,
+            "reason": "The attacker asked a legitimate question about baseball without requesting a literal echo, so it's valid. The defender responded with a relevant answer, thus also valid. No rule violations, so no winner."
+        }
+    },
+    {
+        "attacker_query": "In baseball, what is the term for the person who throws the ball to the batter, often standing on a raised mound?",
+        "defender_response": "That person is often called the hurler or the ball-thrower in the game.",
+        "validator": {
+            "attacker_valid": true,
+            "defender_valid": true,
+            "winner": null,
+            "reason": "The attacker asked a legitimate trivia question prompting the defender to infer the term, which is allowed. The defender provided an answer attempt, not a refusal or empty response, so both are valid and the round continues."
+        }
+    },
+    {
+        "attacker_query": "In baseball, what is the term for the act of throwing the ball toward home plate from a raised mound?",
+        "defender_response": "That action is commonly referred to as the delivery or the toss in the context of the game.",
+        "validator": {
+            "attacker_valid": true,
+            "defender_valid": true,
+            "winner": null,
+            "reason": "The attacker asked a legitimate definition question (legal), and the defender provided a response rather than refusing or giving an empty reply (valid). No rule violations, so the round continues."
+        }
+    },
+    {
+        "attacker_query": "In baseball, what term describes the act of throwing the ball toward home plate from a raised mound, often referred to as the delivery or the toss?",
+        "defender_response": "That action is generally described as the act of hurling or delivering the ball toward home plate, often involving a carefully timed and practiced motion from the pitcher's mound.",
+        "validator": {
+            "attacker_valid": true,
+            "defender_valid": true,
+            "winner": null,
+            "reason": "The attacker asked a legitimate definition/term question, which is allowed. The defender responded with a relevant description, not a refusal or empty reply, so both are valid and the round continues."
+        }
+    },
+    {
+        "attacker_query": "What term describes the act of a baseball player throwing the ball toward home plate from the raised mound, often in a carefully timed motion?",
+        "defender_response": "That action is often described as the act of delivering the ball toward home plate from the elevated mound, typically involving a refined set of movements designed for accuracy and effectiveness.",
+        "validator": {
+            "attacker_valid": true,
+            "defender_valid": true,
+            "winner": null,
+            "reason": "The attacker asked for a term (definition) which is a legal move, and the defender provided a descriptive response without refusing or giving an empty answer."
+        }
+    },
+    {
+        "attacker_query": "In baseball, what term is commonly used to describe the act of throwing the ball toward home plate from the elevated mound, involving a refined set of movements designed for accuracy and effectiveness?",
+        "defender_response": "That action is most often called the delivery or the throw \u2014 it's the carefully executed motion used to send the ball toward home plate.",
+        "validator": {
+            "attacker_valid": true,
+            "defender_valid": true,
+            "winner": null,
+            "reason": "The attacker asked a legitimate definition/term question, not a literal echo request, so it is valid. The defender provided an answer addressing the question, so it is also valid. No rule violations, so the round continues."
+        }
+    },
+    {
+        "winner": "qwen/qwen3-32b",
+        "conclusion": "Defender qwen/qwen3-32b won!!"
+    }
+]
